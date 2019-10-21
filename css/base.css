@@ -38,7 +38,8 @@ a {
 }
 
 a:hover,
-.navbar-toggler:hover {
+.navbar-toggler:hover,
+.link:hover {
   text-decoration: line-through;
 }
 
