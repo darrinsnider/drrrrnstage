@@ -5,9 +5,7 @@ body {
 }
 
 body {
-  background: #000000 url(../img/bg-dots.svg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
+  background: #000;
   color: #FFFFD2;
   cursor: auto;
   font-family: 'Prompt', sans-serif;
@@ -21,13 +19,14 @@ body {
 }
 
 #blackCover {
+  background: #000 url(../img/bg-dots.svg) repeat-x center;
+  background-size: 1200px;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000;
-  opacity: .6;
+  opacity: .4;
   z-index: -1;
 }
 
@@ -335,6 +334,9 @@ a.grey2:hover {
   }
   .pt-md-200 {
     padding-top: 200px!important;
+  }
+  #blackCover {
+    background-size: cover;
   }
   .navbar li {
     float: left;
