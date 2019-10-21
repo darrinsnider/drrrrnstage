@@ -43,6 +43,10 @@ a:hover,
   text-decoration: line-through;
 }
 
+a.no-line:hover {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
   margin: 0;
