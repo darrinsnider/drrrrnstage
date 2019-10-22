@@ -259,6 +259,11 @@ a.grey2:hover {
   list-style: none;
 }
 
+footer {
+  padding-bottom: 12px;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
 
 /* [ default is XS ] */
 
@@ -335,6 +340,15 @@ a.grey2:hover {
   .pb-md-120 {
     padding-bottom: 120px!important;
   }
+  .pb-md-140 {
+    padding-bottom: 140px!important;
+  }
+  .pb-md-160 {
+    padding-bottom: 160px!important;
+  }
+  .pb-md-180 {
+    padding-bottom: 180px!important;
+  }
   .pb-md-200 {
     padding-bottom: 200px!important;
   }
@@ -352,6 +366,15 @@ a.grey2:hover {
   }
   .pt-md-120 {
     padding-top: 120px!important;
+  }
+  .pt-md-140 {
+    padding-top: 140px!important;
+  }
+  .pt-md-160 {
+    padding-top: 160px!important;
+  }
+  .pt-md-180 {
+    padding-top: 180px!important;
   }
   .pt-md-200 {
     padding-top: 200px!important;

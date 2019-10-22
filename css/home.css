@@ -93,7 +93,7 @@
 /* [ contact ] * [ contact ] * [ contact ] * [ contact ] * [ contact ] */
 
 #contactImageContainer {
-  height: 500px;
+  height: 335px;
   background: #000000;
 }
 
@@ -138,6 +138,9 @@
   .slide-text .desc {
     font-size: 21px;
   }
+  #contactImageContainer {
+    height: 500px;
+  }
 }
 
 
@@ -146,9 +149,6 @@
 @media screen and (min-width: 992px) {
   .swiper-button-prev {
     width: 80px
-  }
-  #contactImageContainer {
-    height: 500px;
   }
   #contactImage {
     background: url(../img/home/contact-image.jpg) no-repeat center;
