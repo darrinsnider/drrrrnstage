@@ -238,6 +238,10 @@ a.grey2:hover {
 
 /* end mobile-only */
 
+.navbar {
+  background: rgba(0, 0, 0, .7);
+}
+
 .navbar.show {
   background: rgba(0, 0, 0, .7);
   border-bottom: 2px solid #00FFD2;
@@ -304,6 +308,18 @@ a.grey2:hover {
 /* [ MD ] * [ tablet portrait ] * [ MD ] * [ tablet portrait ] * [ MD ] */
 
 @media screen and (min-width: 768px) {
+  #blackCover {
+    background-size: cover;
+  }
+  .navbar {
+    background: transparent;
+  }
+  .navbar li {
+    float: left;
+  }
+  .navbar li:not(:last-child):after {
+    content: "\0000a0\0000a0\0000a0//\0000a0\0000a0\0000a0";
+  }
   .pb-md-40 {
     padding-bottom: 40px!important;
   }
@@ -339,15 +355,6 @@ a.grey2:hover {
   }
   .pt-md-200 {
     padding-top: 200px!important;
-  }
-  #blackCover {
-    background-size: cover;
-  }
-  .navbar li {
-    float: left;
-  }
-  .navbar li:not(:last-child):after {
-    content: "\0000a0\0000a0\0000a0//\0000a0\0000a0\0000a0";
   }
 }
 

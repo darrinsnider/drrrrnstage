@@ -1,0 +1,9 @@
+.proj-nav {
+  z-index: 10
+}
+
+.proj-nav-prev {
+  transform: rotate(-90deg);
+  top: 0;
+  left: 0;
+}

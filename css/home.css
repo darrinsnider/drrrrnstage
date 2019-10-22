@@ -103,7 +103,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: url(../img/home/contactImage.jpg) no-repeat 17%;
+  background: url(../img/home/contact-image.jpg) no-repeat 17%;
   background-size: cover;
   opacity: .8;
   transform: scale(1);
@@ -151,7 +151,7 @@
     height: 500px;
   }
   #contactImage {
-    background: url(../img/home/contactImage.jpg) no-repeat center;
+    background: url(../img/home/contact-image.jpg) no-repeat center;
     opacity: .9;
   }
   #contactImage.hover,
