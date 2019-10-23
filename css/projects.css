@@ -47,7 +47,7 @@
 
 /* [ L14 ] */
 
-#slideText1 {
+#l14-slideText1 {
   background: url('../img/l14/slide-1-text-bg.jpg') no-repeat center;
   background-size: cover;
   -webkit-text-fill-color: transparent;
@@ -55,7 +55,7 @@
   background-clip: text;
 }
 
-#slideText2 {
+#l14-slideText2 {
   background: url('../img/l14/slide-2-text-bg.jpg') no-repeat center;
   background-size: cover;
   -webkit-text-fill-color: transparent;
@@ -63,7 +63,7 @@
   background-clip: text;
 }
 
-#slideText3 {
+#l14-slideText3 {
   background: url('../img/l14/slide-3-text-bg.jpg') no-repeat center;
   background-size: cover;
   -webkit-text-fill-color: transparent;
