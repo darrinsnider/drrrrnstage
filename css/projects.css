@@ -1,9 +1,72 @@
-.proj-nav {
-  z-index: 10
+.proj-nav-prev-d {
+  transform: rotate(-90deg);
+  top: 180px;
+  padding-left: 60px;
+  left: 0;
+}
+
+.proj-nav-next-d {
+  transform: rotate(90deg);
+  top: 198px;
+  padding-right: 60px;
+  right: 0;
+}
+
+.proj-nav-prev-d:hover {
+  top: 176px;
+}
+
+.proj-nav-next-d:hover {
+  top: 202px;
 }
 
 .proj-nav-prev {
   transform: rotate(-90deg);
-  top: 0;
-  left: 0;
+  right: -30px;
+  top: 0
+}
+
+.proj-nav-next {
+  transform: rotate(90deg);
+  left: -30px;
+  top: 18px
+}
+
+.proj-nav-prev:hover {
+  top: -4px;
+}
+
+.proj-nav-next:hover {
+  top: 22px;
+}
+
+.stats div:last-child {
+  padding-right: 0;
+}
+
+
+/* [ L14 ] */
+
+#slideText1 {
+  background: url('../img/l14/slide-1-text-bg.jpg') no-repeat center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#slideText2 {
+  background: url('../img/l14/slide-2-text-bg.jpg') no-repeat center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#slideText3 {
+  background: url('../img/l14/slide-3-text-bg.jpg') no-repeat center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }

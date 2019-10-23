@@ -31,57 +31,6 @@
   font-size: 17px;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  top: 0;
-  bottom: 0;
-  height: auto;
-}
-
-.swiper-button-next {
-  right: 0;
-  justify-content: flex-end;
-  width: 15%;
-}
-
-.swiper-button-prev {
-  left: 0;
-  justify-content: flex-start;
-  width: 40px;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  content: '';
-}
-
-.swiper-button-next img,
-.swiper-button-prev img {
-  width: 14px;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, .5));
-  opacity: 0;
-}
-
-.swiper-button-next:hover img,
-.swiper-button-prev:hover img {
-  opacity: 1;
-}
-
-.swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  background: #FF5B7A;
-  border: 2px solid #000;
-  opacity: .5;
-  margin: 0 8px !important;
-  transition: all ease .625s;
-}
-
-.swiper-pagination-bullet-active {
-  opacity: 1;
-  border: 2px solid #FF5B7A;
-}
-
 
 /* [ about ] * [ about ] * [ about ] * [ about ] * [ about ] * [ about ] */
 
@@ -147,9 +96,6 @@
 /* [ LG ] * [ desktop ] * [ LG ] * [ desktop ] * [ LG ] * [ desktop ] * [ LG ] */
 
 @media screen and (min-width: 992px) {
-  .swiper-button-prev {
-    width: 80px
-  }
   #contactImage {
     background: url(../img/home/contact-image.jpg) no-repeat center;
     opacity: .9;
@@ -194,32 +140,6 @@
   }
   .slide-text .desc {
     color: #fff;
-  }
-  /*
-  .swiper-button-next {
-    width: calc((100vw - 1180px) / 2 + 150px)
-  }
-*/
-  .swiper-button-next,
-  .swiper-button-prev {
-    width: calc((100vw - 1160px) / 2)
-  }
-  .swiper-button-next img {
-    opacity: 1;
-    margin-right: calc((100vw - 1180px) / 4) !important;
-    left: 0;
-    /* allows hover animation */
-  }
-  .swiper-button-next img:hover {
-    left: 4px;
-  }
-  .swiper-button-prev img {
-    margin-left: calc((100vw - 1180px) / 4) !important;
-    right: 0;
-    /* allows hover animation */
-  }
-  .swiper-button-prev img:hover {
-    right: 4px;
   }
   #skill1 {
     position: relative;
