@@ -139,6 +139,12 @@ a.grey3:hover {
   font-size: 18px;
 }
 
+@media (max-width: 575.98px) {
+  .sz-sm.mobile-sm {
+    font-size: 16px;
+  }
+}
+
 .sz-md {
   font-size: 21px;
   letter-spacing: .125px;
