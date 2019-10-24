@@ -44,6 +44,15 @@
   padding-right: 0;
 }
 
+.img-desc {
+  background: rgba(255, 255, 255, .05);
+  border-radius: 4px;
+}
+
+.logo-footer {
+  height: 50px;
+}
+
 
 /* [ L14 ] */
 
@@ -70,3 +79,35 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+
+/* [ SM ] * [ mobile landscape ] * [ SM ] * [ mobile landscape ] * [ SM ] */
+
+@media screen and (min-width: 576px) {
+  .logo-footer {
+    height: 60px;
+  }
+}
+
+
+/* [ MD ] * [ tablet portrait ] * [ MD ] * [ tablet portrait ] * [ MD ] */
+
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    height: 70px;
+  }
+}
+
+
+/* [ LG ] * [ desktop ] * [ LG ] * [ desktop ] * [ LG ] * [ desktop ] * [ LG ] */
+
+@media screen and (min-width: 992px) {
+  .logo-footer {
+    height: 80px;
+  }
+}
+
+
+/* [ XL ] * [ large desktop ] * [ XL ] * [ large desktop ] * [ XL ] */
+
+@media screen and (min-width: 1200px) {}
