@@ -123,6 +123,11 @@ a.grey2:hover {
   color: #C1C1C1;
 }
 
+.grey3,
+a.grey3:hover {
+  color: #ABABAB;
+}
+
 
 /* fonts */
 

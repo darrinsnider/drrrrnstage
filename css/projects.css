@@ -45,7 +45,7 @@
 }
 
 .img-desc {
-  background: rgba(255, 255, 255, .05);
+  background: rgba(255, 255, 255, .07);
   border-radius: 4px;
 }
 
@@ -102,6 +102,10 @@
 /* [ LG ] * [ desktop ] * [ LG ] * [ desktop ] * [ LG ] * [ desktop ] * [ LG ] */
 
 @media screen and (min-width: 992px) {
+  .img-desc {
+    background: rgba(255, 255, 255, .05);
+    /* 5% is too faint on mobile (oled), 7% is too opaque on desktop */
+  }
   .logo-footer {
     height: 80px;
   }
